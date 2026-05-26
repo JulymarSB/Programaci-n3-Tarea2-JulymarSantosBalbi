@@ -27,7 +27,7 @@ public class SistemaVehiculos {
         placa = scan.nextLine();
 
         for(int i = 0; i < vehiculos.size(); i++){
-            if(vehiculos.get().getPlaca.equalsIgnoreCase(placa)){
+            if(vehiculos.get(i).getPlaca().equalsIgnoreCase(placa)){
                 System.out.println("Ya existe un vehiculo con esa placa");
 
                 return;
